@@ -776,6 +776,37 @@ h2 {
     }
 }
 
+.modal {
+    .modal-content {
+        .modal-header {
+            text-align: center;
+            h4 {
+                color: $mainColor;
+                font-size: 30px;
+            }
+        }
+        .form-button {
+            text-align: center;
+            input {
+                background-color: $mainColor;
+                color: #fff;
+                font-size: 20px;
+                padding: 8px 12px;
+                border-radius: 8px;
+                transition: all 0.3s;
+                text-transform: uppercase;
+
+            }
+        }
+        .total-price {
+            span {
+                font-size: 20px;
+                font-weight: 800;
+            }
+        }
+    }
+}
+
     // Property Form Page
 
 .form-wrapper {
