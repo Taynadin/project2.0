@@ -39,17 +39,6 @@ router.get('/form', function (req, res) {
 });
 
 
-// router.get('/send', function (req,res) {
-//   var smtpTransport = mailer.createTransport({
-//     service: "Gmail",
-//     auth: {
-//         user: "cfevents2018@gmail.com",
-//         pass: "centralflorida"
-//     }
-//   });
-
-
-// })
 
 
 module.exports = router;

@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box; }
+
 body {
   font-family: "Roboto", sans-serif; }
 
@@ -152,40 +155,16 @@ h2 {
       position: relative; }
       .properties .home-item .home-image img {
         width: 100%; }
-      .properties .home-item .home-image .sale p {
+      .properties .home-item .home-image .home-price span {
         position: absolute;
-        top: 0;
         right: 0;
-        color: white;
-        font-size: 16px;
-        padding-right: 20px;
-        background-color: #2B98DD;
-        border-radius: 5px;
-        margin-right: 10px;
-        margin-top: 5px;
-        padding: 5px 8px;
-        text-transform: uppercase; }
-      .properties .home-item .home-image .rent p {
-        position: absolute;
-        top: 0;
-        right: 0;
-        color: white;
-        font-size: 16px;
-        padding-right: 20px;
-        background-color: #00B2A0;
-        border-radius: 5px;
-        margin-right: 10px;
-        margin-top: 5px;
-        padding: 5px 8px;
-        text-transform: uppercase; }
-      .properties .home-item .home-image .home-price {
-        position: absolute;
-        left: 0;
         bottom: 0;
+        background-color: #B02D34;
+        border-top-left-radius: 10px;
+        padding: 10px;
         color: #fff;
-        font-size: 18px;
-        letter-spacing: 1px;
-        margin: 0 0 10px 10px; }
+        font-size: 25px;
+        font-family: "Source Sans Pro", sans-serif; }
     .properties .home-item .home-info {
       width: 100%; }
       .properties .home-item .home-info ul li {
@@ -282,7 +261,9 @@ h2 {
 
 /* Blog */
 .blog {
-  margin-top: 70px; }
+  background: #fff;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+  padding-bottom: 50px; }
   .blog .article {
     position: relative;
     margin-top: 30px; }
@@ -348,6 +329,73 @@ h2 {
   font-size: 16px; }
   .copyright a {
     color: inherit; }
+
+@media (max-width: 992px) {
+  .top-nav {
+    display: none; }
+  .main-nav {
+    margin: 0;
+    padding-top: 20px;
+    font-size: 14px; }
+    .main-nav .nav-content {
+      margin: 0; }
+      .main-nav .nav-content ul li {
+        margin-left: 10px; }
+  .main-banner {
+    padding-top: 20px; }
+    .main-banner .subtitle h1 {
+      width: 100%; }
+  .properties .home-item .home-image .home-price span {
+    font-size: 18px; } }
+
+@media (max-width: 768px) {
+  .main-nav {
+    width: 100%; }
+    .main-nav .logo {
+      text-align: center;
+      width: 100%; }
+    .main-nav .nav-content {
+      text-align: center;
+      padding-top: 40px; }
+      .main-nav .nav-content ul {
+        float: none; }
+  .main-banner {
+    margin: 0 auto;
+    width: 80%; }
+    .main-banner .subtitle {
+      text-align: center;
+      padding: 20px 0; }
+      .main-banner .subtitle h1 {
+        font-size: 60px; }
+  .properties {
+    width: 80%;
+    margin: 0 auto; }
+  .services .service-info p {
+    width: 60%;
+    margin: 0 auto; }
+  .add-property {
+    height: 800px; }
+  .blog {
+    width: 80%;
+    margin: 40px auto; }
+  .main-footer .row {
+    width: 100%; }
+    .main-footer .row .logo-footer {
+      width: 100%;
+      padding-bottom: 20px; }
+    .main-footer .row .info-footer {
+      width: 50%;
+      float: right; } }
+
+@media (max-width: 530px) {
+  .main-nav .nav-content {
+    display: initial; }
+    .main-nav .nav-content ul {
+      font-size: 13px; }
+  .add-property h5 {
+    font-size: 40px;
+    width: 80%;
+    margin: 0 auto; } }
 
 .wrapper {
   background: #F6F6F6; }
@@ -538,6 +586,10 @@ h2 {
         color: #3E4752;
         background-color: #c94950; }
 
+@media (max-width: 992px) {
+  .contact-wrapper {
+    width: 80%; } }
+
 .filter {
   text-align: right; }
   .filter button {
@@ -592,5 +644,15 @@ h2 {
     width: 80%;
     margin: 0 auto;
     text-align: center; }
+
+@media (max-width: 992px) {
+  .nav-properties .nav-content {
+    padding-top: 50px; } }
+
+@media (max-width: 768px) {
+  .nav-properties {
+    padding-bottom: 30px; }
+  .article {
+    flex: 1; } }
 
 /*# sourceMappingURL=style.css.map */

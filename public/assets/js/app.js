@@ -53,7 +53,7 @@ jQuery(document).ready(function($){
         var url = data.articles[i].url;
 
         var newsBlock = `
-        <div class="article col-sm-4">
+        <div class="article col-md-4 col-sm-6">
             <article class="news-item">
                 <img src="${image ? image : 'http://placehold.it/300x250'}" width="300" height="250" id="blogImage">
                 <div class="overlay-blog">
@@ -79,7 +79,7 @@ jQuery(document).ready(function($){
             var newsBlock = `
             <div class="article col-sm-4">
                 <article class="news-item">
-                    <img src="${image ? image : 'http://placehold.it/300x250'}" width="300" height="250" id="blogImage">
+                    <img  src="${image ? image : 'http://placehold.it/300x250'}" width="300" height="250" id="blogImage">
                     <div class="overlay-blog">
                         <span class="date" id="date">${date}</span>
                     </div>
@@ -117,7 +117,7 @@ jQuery(document).ready(function($){
             var image = data[i].image
     
             var allPropertiesBlock = `
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-6">
                 <div class="home-item" id="propertiesRender">
                     <div class="home-image">
                         <a href="/property?id=${id}"><img src="${image ? image : "assets/images/blog3.jpg"}" height="280" /></a>
