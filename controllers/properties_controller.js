@@ -10,6 +10,7 @@ var router = express.Router();
 // Get All Properties
 router.get('/api/properties', function(req, res) { 
   let query = req.query ? req.query : {}; //if/else
+
   
   properties.all(query, function(data) {
     res.json(data);
@@ -44,6 +45,9 @@ router.post('/api/properties', function(req, res) {
     res.json({ msg: 'Property added successfully!', id: data.insertId });
   });
 });
+
+
+        //Email 
 
 // Contact 
 

@@ -394,7 +394,7 @@ function book(){
         error: function() {
             console.log("error");
             },
-        }).then(function() {
+        }).then(function() {console.log('email has been sent')
             
         swal("Good Job!", "Your request has been send sucessfully!", "success")
         .then((value) => {
