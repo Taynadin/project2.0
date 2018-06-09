@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>CF Rental</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-datepicker.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <link rel="shortcut icon" type="image/png" href="assets/images/logo.png" width="16px">
+</head>
+<body>
+
+    <div class="wrapper ">
+        <div class="hero">
+            <div class="top-nav">
+                <div class="row">
+                    <i class="fas top fa-phone col-sm-2 col-sm-offset-2"> +1 800-850-0000</i>
+                    <i class="fas top fa-map-marker col-sm-2"> Orlando, FL</i>
+                    <i class="fas top fa-envelope col-sm-2"> cfevents2018@gmail.com</i>
+                    <div class="social-icon">
+                        <i class="fab top fa-github"></i>
+                        <i class="fab top fa-facebook-square"></i>
+                        <i class="fab top fa-instagram"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="main-nav">
+                <div class="container">
+                    <div class="row">
+                        <div class="logo col-sm-3">
+                            <a href="/"><img src="assets/images/logo.png"></a>
+                        </div>
+                        <div class="nav-content col-sm-9 ">
+                            <ul>
+                                <li><a href="/">Home</a></li>
+                                <li><a href="/properties">Properties</a></li>
+                                <li><a href="/blog">Blog</a></li>
+                                <li><a href="/contact">Contact</a></li>
+                                <li><a class="add-house" href="/form">Submit Property</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- Header -->
+            <div class="main-banner container">
+                <div class="row">
+                    <div class="subtitle col-sm-7">
+                        <h1> The best way to host your occasion in Central Florida</h1>
+                        <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo aliquid consequatur consequuntur ad? Repellat optio eum adipisci veritatis totam dicta!</p> -->
+                    </div>
+                    <div class="col-sm-5">
+                        <div class="search-box">
+                            <div class="search search-location">
+                                <h4> Location</h4>
+                                <div class='search-location'>
+                                    <select class="form-control map-pin-icon" name="city" >
+                                        <option value="" >Any</option>
+                                        <option value="Orlando">Orlando</option>
+                                        <option value="Kissimmee">Kissimmee</option>
+                                        <option value="Clearwater">Clearwater</option>
+                                        <option value="Winter Garden">Winter Garden</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="search search-type">
+                                <h4>Check In</h4>
+                                <input type="text" class="form-control calendar-icon datepicker" placeholder="MM/DD/YY"  />
+                            </div>
+                            <div class="search search-status">
+                                <h4>Check Out</h4>
+                                <input type="text" class="form-control calendar-icon datepicker" placeholder="MM/DD/YY"  />     
+                            </div>
+                            <div class="search search-guest">
+                                <h4>Guests</h4>
+                                <input class="form-control people-icon" type="number" pattern="[0-9]*" placeholder="Ex. 5" id="guests"  />
+                            </div>
+                            <div class="search-btn">
+                                <a href="/properties"><button>Search</button></a>
+                            </div>
+                        </div>
+                    </div>           
+                </div>
+            </div>
+         </div>
+         
+         <div class="content">
+        <!-- Featured Properties -->
+            <section class="properties container">
+                <h2> Featured Properties </h2>
+                <div class="row propertiesRender1" >
+                        <!-- Similar Properties goes here -->
+                    </div>
+            </section>
+
+
+            <!-- Our Services -->
+            <section class="services container">
+                <h2> Our Services </h2>
+                <div class="row ">
+                    <div class="service-info col-sm-4">
+                        <i class="fas service fa-search"></i>
+                        <h5> Find the perfect place </h5>
+                        <p>Don’t want to host an event at your own home or don’t have the space? Find the perfect home to host your event with us.</p>
+                    </div>
+                    <div class="service-info col-sm-4">
+                        <i class="fas service fa-users"></i>
+                        <h5> Convenience </h5>
+                        <p>Make your guests feel at home while throwing an event that they will remember. Let Central Florida Events help you.</p>
+                    </div>
+                    <div class="service-info col-sm-4">
+                        <i class="fas service fa-home"></i>
+                        <h5> Add Property </h5>
+                        <p> Do you have a property you would like to add? Fill out form to be added to our list of properties for special events.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Submit Property  -->
+            <section class="add-property">
+                <h5> Add Your Property to Our List </h5>
+                <p> So get started by following these simple steps.</p>
+                <div class="add-info container">
+                    <div class="row">
+                        <div class="add col-sm-4">
+                            <i class="fas icon fa-user-plus"></i>
+                            <h3> Register </h3>
+                        </div>
+                        <div class="add col-sm-4">
+                            <i class="fas icon fa-clipboard-list"></i>
+                            <h3> Fill Up Property Details </h3>
+                        </div>
+                        <div class="add col-sm-4">
+                            <i class="fas icon fa-check-circle"></i>
+                            <h3> You are Done </h3>
+                        </div>
+                    </div>
+                    <div class="add-submit">
+                        <a href="/form"><button> Submit Your Property </button></a>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- Blog -->
+            <section class="blog container">
+                <h2> Latest News </h2>
+                <div class="row" id="newsList" >
+                    <!-- News block goes here -->
+                </div> 
+            </section>
+         </div>
+
+        <!-- Footer -->
+        <footer class="main-footer">
+            <div class="row">
+                <div class="logo-footer col-sm-4">
+                    <a href="#"><img src="assets/images/logoWhite.png"></a>
+                </div>
+                <div class="info-footer col-sm-4">
+                    <h5> Information</h5>
+                    <ul>
+                        <li><a href="/about">About </a></li>
+                        <li><a href="/blog">Blog</a></li>
+                        <li><a href="/contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="info-footer col-sm-4">
+                    <h5> Contact</h5>
+                    <ul>
+                        <li><i class="fas fa-phone">  +1 800-850-0000</i></li>
+                        <li><i class="fas fa-map-marker"> Orlando, FL</i></li>
+                        <li><i class="fas fa-envelope"> cfevents2018@gmail.com</i></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <footer class="copyright">
+            <div class="text-center">
+                &copy; 2018 - CF Real Estate. All rights reserved | <a href="#">Terms of Use</a> | <a href="#">Privacy Policy</a> | <a href="#">Sitemap</a>
+            </div>
+        </footer>
+
+        <div class="wrapper"></div>
+
+     </div> <!--Wrapper End-->
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="assets/js/bootstrap-datepicker.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="assets/js/moment.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>CF Rental</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-datepicker.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <link rel="shortcut icon" type="image/png" href="assets/images/logo.png" width="16px">
+</head>
+<body>
+
+    <div class="wrapper ">
+        <div class="hero">
+            <div class="top-nav">
+                <div class="row">
+                    <i class="fas top fa-phone col-sm-3 col-sm-offset-2"> +1 800-850-0000</i>
+                    <i class="fas top fa-map-marker col-sm-2"> Orlando, FL</i>
+                    <i class="fas top fa-envelope col-sm-2"> cfevents2018@gmail.com</i>
+                    <div class="social-icon">
+                        <i class="fab top fa-github"></i>
+                        <i class="fab top fa-facebook-square"></i>
+                        <i class="fab top fa-instagram"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="main-nav">
+                <div class="container">
+                    <div class="row">
+                        <div class="logo property-logo col-sm-3">
+                            <a href="/"><img src="assets/images/logo.png"></a>
+                        </div>
+                        <div class="nav-content col-sm-9 ">
+                            <ul>
+                                <li><a href="/">Home</a></li>
+                                <li><a href="/properties">Properties</a></li>
+                                <li><a href="/blog">Blog</a></li>
+                                <li><a href="/contact">Contact</a></li>
+                                <li><a class="add-house" href="/form">Submit Property</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Page -->
+        <div class="contact-wrapper container">
+            <h1> Contact Us </h1>
+            <div class="contact-form">
+                <form id="form" >
+                    <div class="form-group">
+                        <label  for="textinput">Name</label>
+                        <div class="form-input">
+                            <input name="name" type="text" placeholder="John Doe" class="form-control" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label  for="textinput">Email</label>
+                        <div class="form-input"> 
+                            <input name="email" type="email" placeholder="example@hotmail.com" class="form-control" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label  for="textinput">Subject</label>
+                        <div class="form-input"> 
+                            <input name="subject" type="text" placeholder="Inquiry" class="form-control" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label  for="textinput">Message</label>
+                        <div class="form-input"> 
+                            <textarea  class="form-control" rows="8" cols="56%"  placeholder="Message..." id="message"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-button">
+                        <input id="submit" type="submit">
+                    </div>
+                </form>
+            </div>
+
+        </div> <!-- Wrapper End-->
+
+
+            
+
+
+        <!-- Footer -->
+        <footer class="main-footer">
+            <div class="row">
+                <div class="logo-footer col-sm-4">
+                    <a href="#"><img src="assets/images/logoWhite.png"></a>
+                </div>
+                <div class="info-footer col-sm-4">
+                    <h5> Information</h5>
+                    <ul>
+                        <li><a href="/about">About </a></li>
+                        <li><a href="/blog">Blog</a></li>
+                        <li><a href="/contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="info-footer col-sm-4">
+                    <h5> Contact</h5>
+                    <ul>
+                        <li><i class="fas fa-phone">  +1 800-850-0000</i></li>
+                        <li><i class="fas fa-map-marker"> Orlando, FL</i></li>
+                        <li><i class="fas fa-envelope"> cfevents2018@gmail.com</i></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <footer class="copyright">
+            <div class="text-center">
+                &copy; 2018 - CF Real Estate. All rights reserved | <a href="#">Terms of Use</a> | <a href="#">Privacy Policy</a> | <a href="#">Sitemap</a>
+            </div>
+        </footer>
+
+     </div> <!--Wrapper End-->
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="assets/js/bootstrap-datepicker.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="assets/js/moment.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>

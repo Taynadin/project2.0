@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>CF Rental</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-datepicker.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <link rel="shortcut icon" type="image/png" href="assets/images/logo.png" width="16px">
+</head>
+<body>
+
+    <div class="wrapper ">
+        <div class="hero">
+            <div class="top-nav">
+                <div class="row">
+                    <i class="fas top fa-phone col-sm-3 col-sm-offset-2"> +1 800-850-0000</i>
+                    <i class="fas top fa-map-marker col-sm-2"> Orlando, FL</i>
+                    <i class="fas top fa-envelope col-sm-2"> cfevents2018@gmail.com</i>
+                    <div class="social-icon">
+                        <i class="fab top fa-github"></i>
+                        <i class="fab top fa-facebook-square"></i>
+                        <i class="fab top fa-instagram"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="main-nav">
+                <div class="container">
+                    <div class="row">
+                        <div class="logo property-logo col-sm-3">
+                            <a href="/"><img src="assets/images/logo.png"></a>
+                        </div>
+                        <div class="nav-content col-sm-9 ">
+                            <ul>
+                                <li><a href="/">Home</a></li>
+                                <li><a href="/properties">Properties</a></li>
+                                <li><a href="/blog">Blog</a></li>
+                                <li><a href="/contact">Contact</a></li>
+                                <li><a class="add-house" href="/form">Submit Property</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Property Page  -->
+        <div class="property-wrapper container">
+            <div class="row">
+                <div class="col-sm-9">
+                    <div class="property-content">
+                        <div class="property-details">
+                            <h2 id="singleAddress"> </h2> 
+                            <p><span id="singleCity"></span> ,<span id="singleZipcode"></span></p>
+                        </div>
+                        <div class="property-image" >
+                            <img   id="singleImage" src="">
+                            <div class="property-overlay">
+                                <p> $ <span id="singlePrice"> </span> /Day </p> 
+                            </div>
+                        </div>
+                        <div class="property-body">
+                            <div class="property-features">
+                                <div class="bedroom features">
+                                    <p> Bedrooms </p>
+                                    <i class="fas fa-bed"> <span id="singleBedroom"> </span></i>
+                                </div>
+                                <div class="bedroom features">
+                                    <p> Bathroom </p>
+                                    <i class="fas fa-bath"> <span id="singleBathroom"> </span></i>
+                                </div>
+                                <!-- <div class="bedroom features">
+                                    <p> Garage </p>
+                                    <i class="fas fa-car"><span> 2</span></i>
+                                </div> -->
+                                <div class="bedroom features">
+                                    <p> Guests </p>
+                                    <i class="fas fa-user"> <span id="singleGuest"> </span> </i>
+                                </div>
+                            </div>
+                            <div class="property-description">
+                                <h3> Description </h3>
+                                <p id="singleDescription"></p>
+                            </div>
+                            <!-- <div class="property-amenities">
+                                <h3> Property Amenities </h3>
+                                <div class="row">
+                                    <ul class="col-sm-4">
+                                        <li>Pool</li>
+                                        <li>Full Kitchen</li>
+                                        <li>Hair Dryer</li>
+                                    </ul>
+                                    <ul class="col-sm-4">
+                                        <li>Tv</li>
+                                        <li>Hangers</li>
+                                        <li>Kitchen</li>
+                                    </ul>
+                                    <ul class="col-sm-4">
+                                        <li>Tv</li>
+                                        <li>Pool</li>
+                                        <li>Hair Dryer</li>
+                                    </ul>
+                                </div>
+                            </div> -->
+                            <div class="property-ideal">
+                                <h3> Ideal for </h3>
+                                <p> Weddings, Private Parties, Performances, Small Meetings, Large events, Photo shoots, Classes/Workshops, Corporate Events, Filming Location</p>
+                            </div>
+                            <div class="google-wrapper">
+                                <h3> Property Location </h3>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d28084.529744596282!2d-81.54388210271429!3d28.37196141078203!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1527042571621" title="Property Map" width="100%" height="400" frameborder="0" allowfullscreen=""></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="total-wrapper">
+                        <h2> Book </h2>
+                            <div class="book-box">
+                                <h3> $<span id="singlePrice1"></span> /Day </h3>
+                            <div class="total-checkIn">
+                                <input class="calendar-icon form-control datepicker" id="sCheckIn" placeholder="Check-In" required >
+                                <input class="calendar-icon form-control datepicker" id="sCheckOut" placeholder="Check-Out" required >
+                            </div>
+                            <div class="total-days">
+                                <p> Days </p><span id="totalDay"></span>
+                            </div>
+                            <div class="total-price">
+                                <h3> Grand Total: </h3><span class="reqPrice">$</span>
+                            </div>
+                            <br>
+                            <div class="total-submit">
+                                <button data-toggle="modal" data-target="#request"> Request Inquiry </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+          <!-- Similar Properties -->
+          <section class="properties container">
+            <h2> Similar Properties </h2>
+            <div class="row propertiesRender1">
+                <!-- Similar Properties goes here -->
+            </div>
+        </section>
+
+        <!-- Modal Request Inquiry -->
+        <div class="modal fade" id="request" tabindex="-1">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Request</h4>
+              </div>
+              <div class="modal-body">
+                <form id="requestForm" >
+                    <div class="form-group">
+                        <label  for="textinput">Name</label>
+                        <div class="form-input">
+                            <input name="name" type="text" placeholder="John Doe" id="reqName"class="form-control" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label  for="textinput">Email</label>
+                        <div class="form-input"> 
+                            <input name="email" type="email" placeholder="example@hotmail.com" id="reqEmail" class="form-control" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="total-price">
+                            <h3> Grand Total: </h3><span class="reqPrice"></span>
+                        </div>
+                    </div>
+                    <div class="form-button">
+                        <input id="reqSubmit" type="submit">
+                    </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- Footer -->
+        <footer class="main-footer">
+            <div class="row">
+                <div class="logo-footer col-sm-4">
+                    <a href="/"><img src="assets/images/logoWhite.png"></a>
+                </div>
+                <div class="info-footer col-sm-4">
+                    <h5> Information</h5>
+                    <ul>
+                        <li><a href="/about">About </a></li>
+                        <li><a href="/blog">Blog</a></li>
+                        <li><a href="/contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="info-footer col-sm-4">
+                    <h5> Contact</h5>
+                    <ul>
+                        <li><i class="fas fa-phone">  +1 800-850-0000</i></li>
+                        <li><i class="fas fa-map-marker"> Orlando, FL</i></li>
+                        <li><i class="fas fa-envelope"> cfevents2018@gmail.com</i></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <footer class="copyright">
+            <div class="text-center">
+                &copy; 2018 - CF Real Estate. All rights reserved | <a href="#">Terms of Use</a> | <a href="#">Privacy Policy</a> | <a href="#">Sitemap</a>
+            </div>
+        </footer>
+
+
+     </div> <!--Wrapper End-->
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="assets/js/bootstrap-datepicker.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="assets/js/moment.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>

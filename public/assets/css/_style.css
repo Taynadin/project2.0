@@ -1,0 +1,321 @@
+body {
+  font-family: "Source Sans Pro", Georgia, Times, 'Times New Roman', serif
+}
+
+/* 
+.hero {
+  background: url("../../assets/images/orlandoHero.jpg");
+  width: 100%;
+  background-position: center center;
+  background-size: cover;
+  color:#fff;
+} */
+.top-nav {
+ width: 100%;
+ margin-top: 20px;
+}
+.top {
+  padding-left: 8px;
+  font-size: 16px;
+}
+.fab {
+  font-size: 20px;
+}
+.main-nav {
+  width: 100%;
+  margin-top: 30px;
+  font-family: "Source Sans Pro";
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.logo {
+  text-align: center;
+}
+.logo a img {
+  width: 150px;
+}
+.nav-content {
+  margin-top: 40px;
+}
+.nav-content ul li {
+  display: inline;
+  margin-right:30px;
+
+}
+.main-banner {
+  margin-top: 40px;
+  font-family: 'Source Sans Pro', Times, serif;
+}
+
+.subtitle h1 {
+  font-weight: 900;
+  font-size: 75px;
+  width: 80%;
+  letter-spacing: 1px;
+  line-height: 1.3
+}
+.subtitle p {
+  width: 80%;
+  line-height: 1.8;
+  letter-spacing: 1.2;
+  font-size: 20px;
+}
+.search-box {
+  border: 1px solid green;
+  padding: 30px;
+}
+.search {
+  margin-bottom: 30px;
+}
+h4 {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 1.6;
+}
+
+.selectpicker {
+  -webkit-appearance: none;
+    background-color: #eee;
+    border-width: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: 1em;
+    line-height: 1em;
+    padding: 1em 1em;
+    width: 100%;
+}
+.search-btn button {
+  width: 100%;
+  -webkit-appearance: none;
+  border:1px solid #B02D34;
+  font-size:18px;
+  padding: 6px 0;
+  font-weight: 600;
+}
+
+/* Properties */
+.properties {
+  margin-top: 100px;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-size: 36px;
+  font-weight: 400;
+  padding-left: 20px;
+  border-left: 7px solid #B02D34;
+  text-transform: uppercase;
+}
+.home-item {
+  border:solid 1px #DADADA;
+  margin-top: 20px;
+}
+.home-image {
+  width: 100%;
+  position: relative;
+}
+.home-image img {
+  width: 100%;
+}
+.sale p {
+  position: absolute;
+  top: 0;
+  right:0;
+  color:white;
+  font-size: 16px;
+  padding-right: 20px;
+  background-color: #2B98DD;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-top: 5px;
+  padding: 5px 8px;
+  text-transform: uppercase;
+}
+.rent p {
+  position: absolute;
+  top: 0;
+  right:0;
+  color:white;
+  font-size: 16px;
+  padding-right: 20px;
+  background-color: #00B2A0;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-top: 5px;
+  padding: 5px 8px;
+  text-transform: uppercase;
+}
+
+.home-price {
+  position: absolute;
+  left: 0;
+  bottom:0;
+  color:#fff;
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin: 0 0 10px 10px
+}
+.home-info {
+  width: 100%;
+}
+
+.home-info ul li {
+  list-style: none;
+  padding: 10px 0;
+  border-bottom: 1px solid #DADADA;
+}
+.home-info ul li:nth-last-child(1){
+  border-bottom:none;
+}
+.home-address {
+  font-size: 16px;
+  font-weight: 600;
+}
+.home-details {
+  background-color: #F6F6F6;
+  width: 100%;
+  font-weight: 900
+}
+
+
+/* Services */
+.services {
+  margin-top: 80px;
+
+}
+.service-info{
+  text-align: center;
+  margin-top: 40px;
+}
+.service {
+  font-size: 40px;
+  color: #B02D34;
+}
+h5 {
+  font-size: 24px;
+  margin: 20px 0 20px 0;
+}
+.service-info p {
+  text-align: left;
+  letter-spacing: 1.4
+}
+
+/* Submit Property */
+.add-property {
+  background-image: url("../../assets/images/back1.jpg");
+  height: 600px;
+  background-position: center center;
+  background-size: cover;
+  margin-top: 80px;
+
+}
+.add-property h5, p {
+  text-align: center;
+}
+.add-property h5 {
+  padding-top: 50px;
+  font-size: 45px;
+  font-weight: 800;
+  letter-spacing: 1.5;
+  text-shadow: -2px 0px 3px rgba(30, 30, 30, 1);
+  color:#fff;
+}
+.add-property p {
+  font-size: 18px;
+  color:#3E4752
+}
+
+.add {
+  text-align: center;
+  margin-top: 40px;
+}
+.icon {
+  font-size: 50px;
+  color:#00B2A0;
+  text-shadow: -2px 0px 3px rgba(34, 119, 114, 1);
+}
+.add-property h3 {
+  padding-top: 15px;
+  font-size: 30px;
+  font-weight: 600;
+  color:#00B2A0;
+  text-shadow: -2px 0px 3px rgba(34, 119, 114, 1);
+  letter-spacing: 2px;
+}
+.add-submit {
+  text-align: center;
+  padding: 40px 0;
+}
+.add-submit button{
+  background-color: #00B2A0;
+  color:#fff;
+  padding: 20px 30px;
+  font-size: 20px;
+  cursor: pointer;
+  border: #00B2A0;
+}
+
+/* News */
+
+.blog {
+  margin-top: 70px;
+}
+.article {
+  position: relative;
+  margin-top: 30px;
+}
+.article img {
+  width: 100%;
+}
+.date {
+  position: absolute;
+  left:20;
+  top:0;
+  padding: 5px 10px;
+  color:#fff;
+  background-color: #B02D34;
+  border-bottom-right-radius: 10px;
+}
+.article button {
+  border: 2px solid #B02D34;
+  color:#3E4752;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 8px 12px;
+  font-weight: 800;
+}
+
+.main-footer {
+  margin-top: 80px;
+  background-color: #3E4752;
+  text-align: center;
+  padding: 10px 0;
+  color: #DADADA;
+}
+.main-footer ul li{
+  list-style: none;
+}
+.main-footer img{
+  padding-top: 20px;
+}
+
+.copyright {
+  background-color: #B02D34;
+  color: #DADADA;
+  padding: 5px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
