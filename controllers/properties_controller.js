@@ -83,7 +83,7 @@ router.post('/api/request', function (req,res){
     replyTo: email, // client email
     subject: `${name} send a request inquiry for Events Spaces` , 
     html: `<h1> Hi Events Spaces!</h1>
-          <h3> My name is ${name}, and I would like to know if you have this days ${checkIn} - ${checkOut} available on the house with address ${address} ${city}, ${zipcode}?</h3></br>
+          <h3> My name is ${name}, and I would like to know if you have this days ${checkIn} - ${checkOut} available at the house with address ${address} ${city}, ${zipcode}?</h3></br>
           <h2>Customer Information: </h2></br>
           <h4> Name: ${name}, </h4>
           <h4> Email: ${email}, </h4>

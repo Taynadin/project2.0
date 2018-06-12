@@ -56,33 +56,36 @@
                     </div>
                     <div class="col-sm-5">
                         <div class="search-box">
-                            <div class="search search-location">
-                                <h4> Location</h4>
-                                <div class='search-location'>
-                                    <select class="form-control map-pin-icon" name="city" >
-                                        <option value="" >Any</option>
-                                        <option value="Orlando">Orlando</option>
-                                        <option value="Kissimmee">Kissimmee</option>
-                                        <option value="Clearwater">Clearwater</option>
-                                        <option value="Winter Garden">Winter Garden</option>
-                                    </select>
+                            <form id="get-properties" action="/properties">
+                                <div class="search search-location">
+                                    <h4> Location</h4>
+                                    <div class='search-location'>
+                                        <select class="form-control map-pin-icon" name="city" >
+                                            <option value="" >Any</option>
+                                            <option value="Orlando">Orlando</option>
+                                            <option value="Kissimmee">Kissimmee</option>
+                                            <option value="Clearwater">Clearwater</option>
+                                            <option value="Winter Garden">Winter Garden</option>
+                                        </select>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="search search-type">
-                                <h4>Check In</h4>
-                                <input type="text" class="form-control calendar-icon datepicker" placeholder="MM/DD/YY"  />
-                            </div>
-                            <div class="search search-status">
-                                <h4>Check Out</h4>
-                                <input type="text" class="form-control calendar-icon datepicker" placeholder="MM/DD/YY"  />     
-                            </div>
-                            <div class="search search-guest">
-                                <h4>Guests</h4>
-                                <input class="form-control people-icon" type="number" pattern="[0-9]*" placeholder="Ex. 5" id="guests"  />
-                            </div>
-                            <div class="search-btn">
-                                <a href="/properties"><button>Search</button></a>
-                            </div>
+                                <div class="search search-type">
+                                    <h4>Check In</h4>
+                                    <input type="text" class="form-control calendar-icon datepicker" placeholder="MM/DD/YY"  />
+                                </div>
+                                <div class="search search-status">
+                                    <h4>Check Out</h4>
+                                    <input type="text" class="form-control calendar-icon datepicker" placeholder="MM/DD/YY"  />     
+                                </div>
+                                <div class="search search-guest">
+                                    <h4>Guests</h4>
+                                    <input class="form-control people-icon" type="number" pattern="[0-9]*" placeholder="Ex. 5" id="guests"  />
+                                </div>
+                                <div class="search-btn">
+                                    <button type="submit">Search</button>
+                                </div>
+                            </form>
+
                         </div>
                     </div>           
                 </div>

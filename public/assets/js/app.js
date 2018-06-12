@@ -94,18 +94,23 @@ jQuery(document).ready(function($){
 
     }
 
-    $.ajax({
-        url: '/api/properties',
-        method: "GET",
-        error: function() {
-          console.log("error");
-        },
-        success: function(data) {
-          renderProperties(data);
-        }
-      });
+    function getProperties(city) {
+
+        $.ajax({
+            url: '/api/properties' + ( city ? `?city=${city}` : '' ),
+            method: "GET",
+            error: function() {
+              console.log("error");
+            },
+            success: function(data) {
+              renderProperties(data);
+            }
+          });
+    }
+    
 
       function renderProperties(data){
+
           
         for (var i = 0; i < data.length; i++) {
             var id = data[i].id;
@@ -120,10 +125,10 @@ jQuery(document).ready(function($){
             <div class="col-md-4 col-sm-6">
                 <div class="home-item" id="propertiesRender">
                     <div class="home-image">
-                        <a href="/property?id=${id}"><img src="${image ? image : "assets/images/blog3.jpg"}" height="280" /></a>
+                        <a href="/property?id=${id}"><img src="${image ? image : "assets/images/blog3.jpg"}" height="250" /></a>
                         <div class="overlay-info">
                             <div class="home-price">
-                                <span>$${price} /Day</span>
+                                <span class="overlay">$${price} /Day</span>
                             </div>
                         </div>
                     </div>
@@ -196,6 +201,7 @@ jQuery(document).ready(function($){
     var currentURL = window.location.href;
     var url = new URL(currentURL);
     var property_id = url.searchParams.get("id");
+    var city = url.searchParams.get("city"); // if url have ?city= param
     
     if(property_id) {
         $.ajax({
@@ -232,6 +238,12 @@ jQuery(document).ready(function($){
         });
     }
 
+    if(city) {
+        getProperties(city);
+    } else {
+        getProperties();
+    }
+
     //  Show Similar Properties on Homepage and Single Property 
     $.ajax({
         url: '/api/properties',
@@ -259,7 +271,7 @@ jQuery(document).ready(function($){
             <div class="col-md-4">
                 <div class="home-item">
                     <div class="home-image">
-                        <a href="/property?id=${id}"><img src="${image ? image : "assets/images/blog3.jpg"}" height="280" /></a>
+                        <a href="/property?id=${id}"><img src="${image ? image : "assets/images/blog3.jpg"}" height="250" /></a>
                         <div class="overlay-info">
                             <div class="home-price">
                                 <span>$${price} /Day</span>
