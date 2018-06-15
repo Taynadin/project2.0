@@ -20,7 +20,7 @@ Also Events Spaces allows anyone who would like to offer there own home with the
 
 #### Overview
 
-![pic2](public/assets/images/pic2.gif)
+![layout1](public/assets/images/pic1.gif)
 <!-- ![layout2](public/assets/images/pagelayout2.png)
 ![layout2](public/assets/images/pagelayout3.png) -->
 
