@@ -20,9 +20,9 @@ Also Events Spaces allows anyone who would like to offer there own home with the
 
 #### Overview
 
-![layout1](public/assets/images/pagelayout1.png)
-![layout2](public/assets/images/pagelayout2.png)
-![layout2](public/assets/images/pagelayout3.png)
+![pic2](public/assets/images/pic2.gif)
+<!-- ![layout2](public/assets/images/pagelayout2.png)
+![layout2](public/assets/images/pagelayout3.png) -->
 
 
 #### Front End 
