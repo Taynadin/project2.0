@@ -12,7 +12,7 @@ Also Events Spaces allows anyone who would like to offer there own home with the
 
 #### Overview
 
-![layout1] (images/pagelayout1.png)
+![layout1] (assets/images/pagelayout1.png)
 ![layout2] (images/pagelayout2.png))
 
 #### Front End 
