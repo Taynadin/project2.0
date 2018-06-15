@@ -27,9 +27,3 @@ For our front end we wanted to use a very clean and professional approach. Some 
 
 #### Back End 
 For our back end we have our data of houses stored through[MySQL Database](https://www.mysql.com/). Alog with using MySQL as an ORM. For the GET routes our guest are able to view house available in Centeral Flofida. This data is being pulled in by the houses alreay stored in or database. As for the POST routes homesowners can add any eligible house to rent out for events. 
-
-
-
-
-
-
