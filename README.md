@@ -12,8 +12,8 @@ Also Events Spaces allows anyone who would like to offer there own home with the
 
 #### Overview
 
-![layout1] (public/assets/images/pagelayout1.png)
-![layout2] (public/assets/images/pagelayout2.png))
+![layout1] (images/pagelayout1.png)
+![layout2] (images/pagelayout2.png))
 
 #### Front End 
 For our front end we wanted to use a very clean and professional approach. Based on the pictures provided we went with a Red, Grey and White as our primay colors. For this desighn we used Bootstrap combined with Sass. 
