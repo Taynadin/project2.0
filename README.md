@@ -2,8 +2,8 @@
 
 #### Developers
 * Nadine Taylor (Team Lead)
-* Giovanna Perina (Html, CSS, SASS, )
-* Nicholas Geronimo ()
+* Giovanna Perina (Html, CSS, SASS, MySQL )
+* Nicholas Geronimo (GET & POST routes, MySQL)
 
 #### About 
 Event Spaces is an app that allows guest rent a house when they need a location to plan or host an event. Guest can browse houses locatied in Central Florida that have the space availabe to throw a weeding, baby shower, or bithday celebration. No need to clean up after the event either. We will do the cleaning for you. 
@@ -25,6 +25,8 @@ Also Events Spaces allows anyone who would like to offer there own home with the
 For our front end we wanted to use a very clean and professional approach. Some of the technologies used for the front end were [Bootstrap 3](http://getbootstrap.com/docs/3.3/) and [Sass](https://sass-lang.com/).
 
 #### Back End 
+For our back end we have our data stored through[MySQL Database](https://www.mysql.com/). Alog with using MySQL as an ORM as well. Our GET route 
+
 
 
 
