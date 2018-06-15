@@ -1,4 +1,5 @@
-# Event Spaces
+# Event Spaces 
+![layout1](public/assets/images/logo.png)
 
 Please check out launched app on Heroku [here](https://mysterious-spire-87732.herokuapp.com/)!
 
@@ -22,12 +23,14 @@ Also Events Spaces allows anyone who would like to offer there own home with the
 
 ![layout1](public/assets/images/pagelayout1.png)
 ![layout2](public/assets/images/pagelayout2.png)
+![layout2](public/assets/images/pagelayout3.png)
+
 
 #### Front End 
 For our front end we wanted to use a very clean and professional approach. Some of the technologies used for the front end were [Bootstrap 3](http://getbootstrap.com/docs/3.3/) and [Sass](https://sass-lang.com/).
 
 #### Back End 
-For our back end we have our data of houses stored through[MySQL Database](https://www.mysql.com/). Alog with using MySQL as an ORM as well. For the GET routes our guest are able to view house available in Centeral Flofida. This data is being pulled in by the houses alreay stored in or database. As for the POST routes homesowners can add there homes to our 
+For our back end we have our data of houses stored through[MySQL Database](https://www.mysql.com/). Alog with using MySQL as an ORM as well. For the GET routes our guest are able to view house available in Centeral Flofida. This data is being pulled in by the houses alreay stored in or database. As for the POST routes homesowners can add any eligible home to our database 
 
 
 
