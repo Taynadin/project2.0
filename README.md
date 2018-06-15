@@ -1,5 +1,7 @@
 # Event Spaces
 
+Please check out launched app on Heroku [here](https://mysterious-spire-87732.herokuapp.com/)!
+
 #### Developers
 * Nadine Taylor (Team Lead)
 * Giovanna Perina (Html, CSS, SASS, MySQL )

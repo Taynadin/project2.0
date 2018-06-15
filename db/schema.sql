@@ -13,7 +13,7 @@ USE properties;
     `guest` int(11) DEFAULT NULL,
     `description` text,
     `price` decimal(10,2) DEFAULT NULL,
-    `image` varchar(255) DEFAULT NULL,
+    `image` text DEFAULT NULL,
     PRIMARY KEY (`id`)
     );
 
