@@ -1,4 +1,4 @@
-<img src="public/assets/images/logo.png"  width="125">
+<img src="public/assets/images/logo.png"  width="150">
 
 Please check out launched app on Heroku [here](https://mysterious-spire-87732.herokuapp.com/)!
 
