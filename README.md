@@ -10,16 +10,23 @@ Event Spaces is a website that allows guest who need a location to plan or host 
 
 Also Events Spaces allows anyone who would like to offer there own home with the propper space for an event, can list it through our site.
 
+#### Getting Started / Required Instalations 
+To get started please be sure to locally install
+* node express 
+* node body-parser
+* node mysql
+* node gmail-send
+
 #### Overview
 
 ![layout1] (assets/images/pagelayout1.png)
-![layout2] (images/pagelayout2.png))
+![layout2] (images/pagelayout2.png)
 
 #### Front End 
-For our front end we wanted to use a very clean and professional approach. Based on the pictures provided we went with a Red, Grey and White as our primay colors. For this desighn we used Bootstrap combined with Sass. 
+For our front end we wanted to use a very clean and professional approach. Some of the technologies used for the front end were [Bootstrap 3] (http://getbootstrap.com/docs/3.3/) and [Sass] (https://sass-lang.com/).
 
 #### Back End 
-For the back end we have our database running though 
+
 
 
 
