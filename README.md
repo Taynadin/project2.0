@@ -1,5 +1,4 @@
-# Event Spaces 
-![layout1](public/assets/images/logo.png)
+<img src="public/assets/images/logo.png"  width="30">
 
 Please check out launched app on Heroku [here](https://mysterious-spire-87732.herokuapp.com/)!
 
