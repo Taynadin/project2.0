@@ -3,19 +3,18 @@
 #### Developers
 * Nadine Taylor (Team Lead)
 * Giovanna Perina (Html, CSS, SASS, )
-* Nicholas Geronimo
+* Nicholas Geronimo ()
 
 #### About 
-Event Spaces is a website that allows guest who need a location to plan or host an evnt. Guest can browse houses locatied in Central Florida that have the space availabe to throw a weeding, baby shower, or bithday celebration. No need to clean up after the event either. we will do the cleaning for you. 
+Event Spaces is an app that allows guest rent a hosue need a location to plan or host an evnt. Guest can browse houses locatied in Central Florida that have the space availabe to throw a weeding, baby shower, or bithday celebration. No need to clean up after the event either. we will do the cleaning for you. 
 
 Also Events Spaces allows anyone who would like to offer there own home with the propper space for an event, can list it through our site.
 
-#### Getting Started / Required Instalations 
-To get started please be sure to locally install
-* node express 
-* node body-parser
-* node mysql
-* node gmail-send
+#### Getting Started / Required Instalations
+* [node express] (https://www.npmjs.com/package/express) 
+* [node body-parser] (https://www.npmjs.com/package/body-parser)
+* [node mysql] (https://www.npmjs.com/package/mysql)
+* [node gmail-send] (https://www.npmjs.com/package/gmail-send)
 
 #### Overview
 
