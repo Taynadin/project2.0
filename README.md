@@ -31,7 +31,7 @@ For our back end we have our data of houses stored through [MySQL Database](http
 #### How to Install
 1) Downloaded or Cloned the repository 
 2) After cloning the GitHub reposirtory in your local folder open the terminal where you plan to install the application. Then run npm i to implement all the required npm dependency package files.
-3) Then run an npm install * [Express](https://www.npmjs.com/package/express)
-[Body Parser](https://www.npmjs.com/package/body-parser)
-[MySQL](https://www.npmjs.com/package/mysql)
-[Gmail Send](https://www.npmjs.com/package/gmail-send)
+3) Then run an npm install [Express](https://www.npmjs.com/package/express),
+[Body Parser](https://www.npmjs.com/package/body-parser),
+[MySQL](https://www.npmjs.com/package/mysql),
+[Gmail Send](https://www.npmjs.com/package/gmail-send).
